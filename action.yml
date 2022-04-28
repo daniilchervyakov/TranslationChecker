@@ -8,6 +8,6 @@ inputs:
     default: ''
 runs:
   using: 'docker'
-  image: 'docker://mindboxmoscow/translation-checker'
+  image: 'Dockerfile'
   args:
     - ${{ inputs.skip-inclusion-check }}
